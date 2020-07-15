@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components/post.css" />
+    <link rel="stylesheet" href="components/comment.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.0/angular.min.js"></script>
+    <script src="main.es6"></script>
+    <script src="services/postService.es6"></script>
+    <script src="components/post.es6"></script>
+    <script src="components/comment.es6"></script>
+  </head>
+
+  <body ng-app="autoFi" ng-controller="mainController as main">
+    <post ng-repeat="post in main.posts" post="post"></post>
+  </body>
+
+</html>
