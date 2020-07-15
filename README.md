@@ -6,8 +6,7 @@
 - Clone this repo
 - Open a command/shell prompt and go in to this project/repo directory
 - Run `npm install` or `yarn install` if you have yarn
-- Run `npm install gulp-cli -g`
-- Run `gulp start` to start the application server
+- Run `npm start` to start the application server
 - Use your web browser to access http://localhost:6789/
 - You can run `npm test` to run a  unit test for the API
 
